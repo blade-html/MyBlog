@@ -6,7 +6,7 @@ $routerArray = array(
                         'controller' => 'index',
                         'action' => 'index'
                     ),
-    '/publicsh' =>  array(
+    '/publish' =>  array(
                         'controller' => 'article',
                         'action' => 'add'
                     ),
