@@ -83,3 +83,10 @@ $di->set('session', function() {
 $di->set('router', function(){
     return include "../app/config/routes.php";
 });
+
+/**
+  * Register a user componet
+  */
+$di->set('elements', function() {
+    return new Elements();
+});

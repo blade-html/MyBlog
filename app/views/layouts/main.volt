@@ -13,32 +13,7 @@
 		</div>
 		<!--#header-->
 		<div class="secondary-navigation">
-			<nav id="navigation">
-				<ul id="menu-main-navigation" class="menu sf-js-enabled"><li id="menu-item-1305" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1305"><a href="./img/Ribbon.htm">Home</a></li>
-					<li id="menu-item-1286" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1286"><a href="#">Apple</a></li>
-					<li id="menu-item-1285" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1285"><a href="#">Google</a></li>
-					<li id="menu-item-1287" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1287"><a href="#">Mobiles</a></li>
-					<li id="menu-item-1298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1298"><a href="#" class="sf-with-ul">Options Panel<span class="sf-sub-indicator"> »</span><span class="sf-sub-indicator"> »</span></a>
-						<ul class="sub-menu sf-js-enabled" style="display: none; visibility: hidden;">
-							<li id="menu-item-1300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1300"><a href="#">General Settings</a></li>
-							<li id="menu-item-1303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1303"><a href="#">Styling Options</a></li>
-							<li id="menu-item-1301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1301"><a href="#">Single Post</a></li>
-						</ul>
-					</li>
-				</ul>
-				<select>
-					<option selected="selected" value="">Go to...</option>
-					<option value="http://demo.mythemeshop.com/ribbon/">Home</option>
-					<option value="http://demo.mythemeshop.com/ribbon/category/apple/">Apple</option>
-					<option value="http://demo.mythemeshop.com/ribbon/category/google/">Google</option>
-					<option value="http://demo.mythemeshop.com/ribbon/category/mobiles/">Mobiles</option>
-					<optgroup label="Options Panel »">
-						<option value="http://demo.mythemeshop.com/ribbon/options-panel/general-settings/"> - General Settings</option>
-						<option value="http://demo.mythemeshop.com/ribbon/options-panel/styling/"> - Styling Options</option>
-						<option value="http://demo.mythemeshop.com/ribbon/options-panel/single-post/"> - Single Post</option>
-					</optgroup>
-				<option selected="selected" value="">Go to...</option><option value="./img/Ribbon.htm">Home</option><option value="#">Apple</option><option value="#">Google</option><option value="#">Mobiles</option><optgroup label="Options Panel » »"></optgroup></select>
-			<select><option selected="selected" value="">Go to...</option><option value="./img/Ribbon.htm">Home</option><option value="#">Apple</option><option value="#">Google</option><option value="#">Mobiles</option><optgroup label="Options Panel » »"><option value="#"> - General Settings</option><option value="#"> - Styling Options</option><option value="#"> - Single Post</option></optgroup></select></nav>
+			<nav id="navigation">{{ elements.getMenu() }}</nav>
 		</div>
 	</div>
 	<!--.container-->        

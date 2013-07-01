@@ -3,8 +3,8 @@
 	<head>
         <meta charset="utf-8" />
         {{ get_title() }}
+        {{ stylesheet_link('library/fonts/font.css') }}
         {{ stylesheet_link('library/css/style.css') }}
-        {{ stylesheet_link('library/fonts/font') }}
         {{ stylesheet_link('library/css/page.css') }}
 	</head>
 	<body>
